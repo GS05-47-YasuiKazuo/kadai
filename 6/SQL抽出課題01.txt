@@ -1,0 +1,30 @@
+SELECT id FROM gs_bm_table id = 1 OR id = 3 OR id = 5;
+
+SELECT id FROM gs_bm_table id >= 4 AND id <= 8;
+
+SELECT bookname FROM gs_bm_table WHERE bookname LIKE '%PHP本';
+
+SELECT indate FROM gs_bm_table ORDER BY indate ASC;
+
+SELECT indate FROM gs_bm_table LIMIT 2016-09;
+
+SELECT indate FROM gs_bm_table LIMIT 5;
+
+SELECT COUNT(bookname) as '総数' FROM gs_bm_table WHERE bookname LIKE '%PHP%; GROUP by id;
+
+SELECT COUNT(bookname) as '総数' FROM gs_bm_table WHERE bookname LIKE '%PHP%; GROUP by id;
+
+SELECT age, COUNT(*) FROM gs_users GROUP BY age;
+
+
+SELECT * FROM gs_bm_table id = 1 OR id = 3 OR id = 5;
+
+SELECT * FROM gs_bm_table id >= 4 AND id <= 8;
+
+SELECT * FROM gs_bm_table WHERE bookname LIKE '%PHP本;
+
+SELECT * FROM gs_bm_table ORDER BY indate ASC;
+
+SELECT * FROM gs_bm_table LIMIT 2016-09;
+
+SELECT * FROM gs_bm_table LIMIT 5;

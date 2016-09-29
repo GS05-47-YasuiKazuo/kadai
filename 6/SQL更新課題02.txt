@@ -1,0 +1,9 @@
+UPDATE gs_bm_table SET bookname= 'RB' WHERE id=7;
+
+UPDATE gs_bm_table SET bookname= 'PY' WHERE id=3 AND id=9;
+
+UPDATE gs_bm_table SET indate= 'sysdate' WHERE id>=8 AND id<=8;
+
+UPDATE gs_bm_table SET bookname= 'PHP$JS' WHERE bookname=JS本;
+
+UPDATE gs_bm_table SET 
